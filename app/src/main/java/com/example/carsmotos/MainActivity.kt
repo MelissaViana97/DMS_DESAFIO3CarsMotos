@@ -197,8 +197,8 @@ class MainActivity : ComponentActivity() {
         }
 
         //ADMIN. automoviles
-        imgAutomovilesCRUD.setOnClickListener {
-            intent = Intent(this, ColoresActivity::class.java)
+        imgTipoautomovilCRUD.setOnClickListener {
+            intent = Intent(this, TiposAutomoviles::class.java)
             startActivity(intent)
         }
     }

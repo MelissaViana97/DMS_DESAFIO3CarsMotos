@@ -58,6 +58,17 @@
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.Light"/>
 
+        <activity
+            android:name=".TipoautomovilActivity"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light"/>
+        <activity
+            android:name=".TipoautomovilCRUD"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light"/>
+
     </application>
 
 </manifest>

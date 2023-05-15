@@ -13,16 +13,13 @@
         android:background="@color/purple_500"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-
-        android:textColor="@color/blue"
+        android:textColor="@color/purple_200"
         android:textSize="40sp"
         android:textStyle="bold" />
 
 
-
-
     <TextView
-        android:id="@+id/lbDescripcionMarcaCRUD"
+        android:id="@+id/lbDescripcionTipoAutomovilCRUD"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
@@ -34,7 +31,7 @@
         android:textSize="16sp" />
 
     <EditText
-        android:id="@+id/txtMarcaAdmin"
+        android:id="@+id/txtTipoAutomovilAdmin"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginLeft="30dp"
@@ -42,23 +39,23 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="10dp"
         android:ems="10"
-        android:hint="  Automóvil"
+        android:hint=" Tipo Automóvil"
         android:textSize="16sp" />
 
     <Button
-        android:id="@+id/btnAddMarca"
+        android:id="@+id/btnAddTipoAutomovil"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginStart="46dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="46dp"
         android:layout_marginBottom="5dp"
-        android:backgroundTint="@color/btn1"
-        android:textColor="@color/white"
-        android:text="Agregar" />
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Agregar"
+        android:textColor="@color/white" />
 
     <Button
-        android:id="@+id/btnUpdateMarca"
+        android:id="@+id/btnUpdateTipoAutomovil"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginStart="46dp"
@@ -70,12 +67,12 @@
         android:text="Actualizar" />
 
     <Button
-        android:id="@+id/btnCancelMarca"
+        android:id="@+id/btnCancelTipoAutomovil"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
-        android:backgroundTint="@color/btnBack"
+        android:backgroundTint="@color/btnExit"
         android:gravity="center"
         android:text="Cancel"
         android:textColor="@color/white" />
