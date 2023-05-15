@@ -15,7 +15,7 @@
         android:layout_height="match_parent"
         android:layout_marginBottom="25dp"
         android:layout_weight="3"
-        android:background="@color/background"
+        android:background="@color/purple_500"
         android:orientation="horizontal">
 
         <ImageView
@@ -23,20 +23,9 @@
             android:layout_width="90dp"
             android:layout_height="80dp"
             android:layout_gravity="center"
-            android:src="@drawable/blue_car_logo" />
+            android:layout_marginLeft="170dp"
+            android:src="@drawable/logo1" />
 
-        <TextView
-            android:id="@+id/lbTitleMain"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:layout_weight="1"
-            android:fontFamily="sans-serif-black"
-            android:gravity="left|center_vertical"
-            android:text="CarsMotors"
-            android:textColor="@color/blue"
-            android:textSize="40sp"
-            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -50,16 +39,7 @@
         android:background="@color/background2"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/lbAccountTitle"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:gravity="left|center_vertical"
-            android:paddingLeft="15dp"
-            android:text="Bienvido a nuestra aplicación de CarsMotors"
-            android:textColor="@color/black"
-            android:textSize="16sp"
-            android:textStyle="italic" />
+
 
         <LinearLayout
             android:id="@+id/lytAccountNameBox"
@@ -72,15 +52,15 @@
             <LinearLayout
                 android:id="@+id/lytAccountTipo"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/lbEmailTitle"
-                    android:layout_width="match_parent"
+                    android:layout_width="85dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="4"
+                    android:layout_weight="0"
                     android:gravity="right"
                     android:text="Email:"
                     android:textColor="@color/black"
@@ -89,7 +69,7 @@
 
                 <TextView
                     android:id="@+id/lbEmailLoggedIn"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_weight="1"
@@ -102,7 +82,7 @@
             <LinearLayout
                 android:id="@+id/lytAccountEmail"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:orientation="horizontal">
 
@@ -112,7 +92,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="4"
                     android:gravity="right"
-                    android:text="Tipo de Usuario:"
+                    android:text="Usuario:"
                     android:textColor="@color/black"
                     android:textSize="18dp"
                     android:textStyle="bold" />
@@ -430,6 +410,16 @@
                         android:text="Admin. Tipos de Automóvil"
                         android:textColor="@color/black"
                         android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/lbUsuariosCRUD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Usuarios"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        tools:ignore="DuplicateIds" />
                 </LinearLayout>
             </LinearLayout>
 

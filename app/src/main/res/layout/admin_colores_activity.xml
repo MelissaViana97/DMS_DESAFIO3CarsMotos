@@ -10,7 +10,7 @@
         android:id="@+id/lbTitleMain"
         android:layout_width="match_parent"
         android:layout_height="90dp"
-        android:background="@color/background"
+        android:background="@color/purple_500"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
 
@@ -51,9 +51,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="46dp"
         android:layout_marginBottom="5dp"
-        android:backgroundTint="@color/btn1"
-        android:textColor="@color/white"
-        android:text="Agregar" />
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="Agregar"
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/btnUpdateColores"
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
-        android:backgroundTint="@color/btnBack"
+        android:backgroundTint="@color/btnExit"
         android:gravity="center"
         android:text="Cancel"
         android:textColor="@color/white" />
