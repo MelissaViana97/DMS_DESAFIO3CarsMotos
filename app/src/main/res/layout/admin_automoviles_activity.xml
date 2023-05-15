@@ -19,17 +19,7 @@
         android:textStyle="bold" />
 
 
-    <TextView
-        android:id="@+id/lbTitleMain2"
-        android:layout_width="match_parent"
-        android:layout_height="94dp"
-        android:background="@color/purple_500"
-        android:fontFamily="sans-serif-black"
-        android:gravity="center"
 
-        android:textColor="@color/blue"
-        android:textSize="40sp"
-        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/lbDescripcionMarcaCRUD"
