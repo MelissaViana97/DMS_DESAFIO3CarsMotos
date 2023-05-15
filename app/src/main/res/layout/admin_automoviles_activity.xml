@@ -42,7 +42,7 @@
         android:layout_marginRight="30dp"
         android:layout_marginBottom="10dp"
         android:ems="10"
-        android:hint=" Marca de Automóvil"
+        android:hint="  Automóvil"
         android:textSize="16sp" />
 
     <Button
